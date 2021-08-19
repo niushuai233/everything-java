@@ -14,14 +14,11 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.JTextField;
+import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
-import javax.swing.table.DefaultTableModel;
-import javax.swing.table.TableModel;
 
 import cc.niushuai.tools.everything.util.VariableConstant;
-import javax.swing.LayoutStyle.ComponentPlacement;
-import javax.swing.ScrollPaneConstants;
 
 public class MainFrame extends JFrame {
 
