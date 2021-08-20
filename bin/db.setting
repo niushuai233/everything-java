@@ -1,0 +1,16 @@
+## 基本配置信息
+# url添加IGNORECASE=TRUE属性不区分大小写
+url = jdbc:h2:file:~/efdb;AUTO_SERVER=TRUE
+username = everything-java-username
+password = everything-java-password
+driver = org.h2.Driver
+
+## 可选配置
+# 是否在日志中显示执行的SQL
+showSql = false
+# 是否格式化显示的SQL
+formatSql = false
+# 是否显示SQL参数
+showParams = true
+# 打印SQL的日志等级，默认debug
+sqlLevel = debug
